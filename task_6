@@ -1,0 +1,8 @@
+def sum_of_digits(m):
+    sum = 0
+    while m > 0:
+        sum += m % 10
+        m //= 10
+    return sum
+
+print(sum_of_digits(1557))
