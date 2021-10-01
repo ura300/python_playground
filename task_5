@@ -1,0 +1,3 @@
+h = int(input("рост: "))
+w = int(input("вес: "))
+print(w/(h*h))
