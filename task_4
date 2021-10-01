@@ -1,0 +1,4 @@
+h = int(input("часы: "))
+m = int(input("минуты: "))
+s = int(input("секунды: "))
+print(h*60*60+m*60+s)
